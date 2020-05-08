@@ -2,8 +2,8 @@
 /**
  * Write a description of RaterDatabase here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author: 	Alex Momotyuk 
+ * @version: 	20.04
  */
 
 import edu.duke.*;
