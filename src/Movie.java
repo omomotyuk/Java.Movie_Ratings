@@ -2,6 +2,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 // An immutable passive data object (PDO) to represent item data
+/*
+    id - a variable representing the IMDB ID of the movie
+    title - a variable for the movie’s title
+    year - an variable representing the year
+    genres - a variable of one or more genres separated by commas
+    director - a variable  of one or more directors of the movie separated by commas
+    country - a variable  of one or more countries the film was made in, separated by commas
+    minutes - a variable for the length of the movie
+    poster - a variable  that is a link to an image of the movie poster if one exists, or “N/A” if no poster exists
+*/
 public class Movie {
     private String id;
     private String title;
@@ -49,6 +59,7 @@ public class Movie {
     }
 
     // Returns genres associated with this item
+    // returns a String of all the genres for this movie
     public String getGenres () {
         return genres;
     }
