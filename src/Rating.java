@@ -1,4 +1,10 @@
-// An immutable passive data object (PDO) to represent the rating data
+// An immutable passive data object (PDO) to represent the rating data - 
+// class Rating is a class for storing the data about one rating of an item
+
+/*
+    item - a description of the item being rated
+    value - a value of the actual rating
+*/
 public class Rating implements Comparable<Rating> {
     private String item;
     private double value;
