@@ -14,7 +14,8 @@ public class MovieRunnerAverage
     {
     }
 
-    
+
+	// printAverageRatings prints a list of movies and their average ratings, for all those movies that have at least a specified number of ratings, sorted by averages    
     public void printAverageRatings()
     {
         //SecondRatings movieRatings = new SecondRatings( "data/ratedmovies_short.csv","data/ratings_short.csv" );

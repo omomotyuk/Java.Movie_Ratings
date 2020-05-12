@@ -1,6 +1,6 @@
 
 /**
- * Write a description of SecondRatings here.
+ * SecondRatings class used to calculate averages on movie ratings
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
@@ -17,12 +17,13 @@ public class SecondRatings
     private ArrayList<DataMap> myMovieRaterSort;
     
     
-    public SecondRatings() {
         // default constructor
+    public SecondRatings() {
         this("ratedmoviesfull.csv", "ratings.csv");
     }
     
     
+	// constructor 
     public SecondRatings( String moviefile,String ratingsfile )
     {
         FirstRatings myMovieRatings = new FirstRatings();
@@ -35,13 +36,14 @@ public class SecondRatings
 
     }
     
-    
+	//  getMovieSize returns the number of movies that were read in and stored in the ArrayList of type Movie    
     public int getMovieSize()
     {
         return myMovies.size();
     }
     
-    
+
+	// getRaterSize returns the number of raters that were read in and stored in the ArrayList of type Rater    
     public int getRaterSize()
     {
         return myRaters.size();
@@ -69,7 +71,7 @@ public class SecondRatings
         return 0.;
     }
     
-    
+	// getAverageByID returns a double representing the average movie rating for this ID if there are at least minimalRaters ratings    
     private double getAverageByID( String id,int minimalRaters )
     {
         
@@ -134,7 +136,8 @@ public class SecondRatings
         return out;        
     }
     
-    
+
+	// getAverageRatings returns an ArrayList of all the Rating objects for movies that have at least the minimal number of raters (minimalRaters) supplying a rating    
     public ArrayList<Rating> getAverageRatings( int minimalRaters )
     {
         ArrayList<Rating> ratingList = new ArrayList<Rating>();
@@ -156,6 +159,7 @@ public class SecondRatings
     }
     
     
+	// getTitle returns the title of the movie with that ID
     public String getTitle( String id )
     {
         for( Movie item : myMovies )
@@ -169,7 +173,8 @@ public class SecondRatings
         return "NO SUCH ID";
     }
 
-    
+
+	// getID returns the movie ID of the movie with given title    
     public String getID( String title )
     {
         for( Movie item : myMovies )
