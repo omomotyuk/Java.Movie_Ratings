@@ -1,6 +1,6 @@
 
-/**
- * Write a description of EfficientRater here.
+/*
+ * description of class
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
@@ -131,3 +131,5 @@ public class EfficientRater implements Rater
     }
     
 }
+
+

@@ -1,5 +1,5 @@
 
-/**
+/*
  * SecondRatings class used to calculate averages on movie ratings
  * 
  * @author: 	Alex Momotyuk 
@@ -189,3 +189,5 @@ public class SecondRatings
     }
 
 }
+
+

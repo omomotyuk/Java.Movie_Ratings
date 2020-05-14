@@ -1,6 +1,6 @@
 
-/**
- * Write a description of GenreFilter here.
+/*
+ * description of class
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
@@ -23,3 +23,5 @@ public class GenreFilter implements Filter
 	}
 
 }
+
+

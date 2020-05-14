@@ -1,6 +1,6 @@
 
-/**
- * Write a description of MovieRunnerWithFilters here.
+/*
+ * Class MovieRunnerWithFilters used to find the average rating of movies using different filters
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
@@ -184,9 +184,4 @@ public class MovieRunnerWithFilters
         }
     }
 
-    
-    
-    
-    
-    
 }

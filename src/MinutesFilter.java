@@ -1,11 +1,10 @@
 
-/**
- * Write a description of MinutesFilter here.
+/*
+ * description of class
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
  */
-
 
 
 public class MinutesFilter implements Filter
@@ -25,3 +24,5 @@ public class MinutesFilter implements Filter
 		return ( (myMinMinutes <= MovieDatabase.getMinutes( id )) && (MovieDatabase.getMinutes( id ) <= myMaxMinutes) );
 	}
 }
+
+
