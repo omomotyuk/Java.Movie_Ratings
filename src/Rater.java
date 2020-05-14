@@ -1,5 +1,5 @@
 
-/**
+/*
  * Rater interface of movie ratings for one rater
  * 
  * @author: 	Alex Momotyuk 
@@ -29,3 +29,5 @@ public interface Rater
     public int getRatingsSize();
     
 }
+
+

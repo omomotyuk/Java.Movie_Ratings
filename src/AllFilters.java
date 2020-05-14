@@ -1,3 +1,11 @@
+
+/*
+ * description of class
+ * 
+ * @author: 	Alex Momotyuk 
+ * @version: 	20.04
+ */
+
 import java.util.ArrayList;
 
 public class AllFilters implements Filter {
@@ -23,3 +31,5 @@ public class AllFilters implements Filter {
     }
 
 }
+
+

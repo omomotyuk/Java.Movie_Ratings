@@ -1,3 +1,11 @@
+
+/*
+ * description of class
+ * 
+ * @author: 	Alex Momotyuk 
+ * @version: 	20.04
+ */
+
 // An immutable passive data object (PDO) to represent the rating data - 
 // class Rating is a class for storing the data about one rating of an item
 
@@ -42,3 +50,5 @@ public class Rating implements Comparable<Rating> {
         return 0;
     }
 }
+
+

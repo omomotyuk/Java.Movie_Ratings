@@ -1,6 +1,6 @@
 
-/**
- * Write a description of MovieRunnerSimilarRatings here.
+/*
+ * description of class
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
@@ -223,3 +223,5 @@ public class MovieRunnerSimilarRatings
     }
     
 }
+
+

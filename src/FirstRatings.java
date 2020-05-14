@@ -1,5 +1,5 @@
 
-/**
+/*
  * FirstRatings class used to read in and store information about movies and ratings of movies by different movie raters 
  * 
  * @author: 	Alex Momotyuk 

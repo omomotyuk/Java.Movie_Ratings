@@ -1,3 +1,11 @@
+
+/*
+ * description of class
+ * 
+ * @author: 	Alex Momotyuk 
+ * @version: 	20.04
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -12,6 +20,7 @@ import java.util.Arrays;
     minutes - a variable for the length of the movie
     poster - a variable  that is a link to an image of the movie poster if one exists, or “N/A” if no poster exists
 */
+
 public class Movie {
     private String id;
     private String title;
@@ -87,3 +96,5 @@ public class Movie {
         return result;
     }
 }
+
+
