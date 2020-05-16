@@ -18,6 +18,7 @@ public class MinutesFilter implements Filter
 		myMaxMinutes = maxMinutes;
 	}
 	
+// satisfies method returns true if a movie’s running time is at least min minutes and no more than max minutes
 	@Override
 	public boolean satisfies( String id )
 	{

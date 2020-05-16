@@ -186,9 +186,9 @@ public class ThirdRatings
         
         return ratingList;
     }
-
     
-
+// Method getAverageRatingsByFilter creates and returns an ArrayList of type Rating of all the movies that have at least minimalRaters ratings and satisfies the filter criteria
+// ivariable minimalRaters is a minimum number of ratings a movie must have
     public ArrayList<Rating> getAverageRatingsByFilter( int minimalRaters,Filter filterCriteria )
     {
         ArrayList<Rating> sorted = new ArrayList<Rating>();
@@ -213,7 +213,6 @@ public class ThirdRatings
         
         return sorted;
     }
-    
     
     
     /*public String getTitle( String id )

@@ -1,6 +1,6 @@
 
 /*
- * description of class
+ * class RaterDatabase is an efficient way to get information about raters
  * 
  * @author: 	Alex Momotyuk 
  * @version: 	20.04
@@ -11,6 +11,8 @@ import java.util.*;
 import org.apache.commons.csv.*;
 
 public class RaterDatabase {
+
+// ourRaters maps a rater ID String to a Rater object that includes all the movie ratings made by this rater
     private static HashMap<String,Rater> ourRaters;
      
 	private static void initialize() {
@@ -27,6 +29,7 @@ public class RaterDatabase {
  		}
  	}	
  	
+// Method addRatings used to add rater ratings to the database from a file
     public static void addRatings(String filename) {
         initialize(); 
         FileResource fr = new FileResource(filename);
@@ -39,6 +42,10 @@ public class RaterDatabase {
         } 
     }
     
+// Method addRaterRating used to add one rater and their movie rating to the database
+// a parameter raterID represents a rater ID
+// a parameter movieID represents a movie ID
+// a parameter rating is the rating the rater raterID has given to the movie movieID
     public static void addRaterRating(String raterID, String movieID, double rating) {
         initialize(); 
         Rater rater =  null;
