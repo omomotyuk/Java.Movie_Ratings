@@ -12,11 +12,13 @@ public class DirectorsFilter implements Filter
 {
 	private String[] myDirectors;
 	
+// parameter Directors represents a list of directors separated by commas (Example: "Charles Chaplin,Michael Mann,Spike Jonze")
 	public DirectorsFilter( String Directors )
 	{
 		myDirectors = Directors.split( "," );
 	}
 	
+// satisfies method returns true if a movie has at least one of these directors as one of its directors
 	@Override
 	public boolean satisfies( String id )
 	{
