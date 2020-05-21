@@ -22,7 +22,6 @@ public class SecondRatings
         this("ratedmoviesfull.csv", "ratings.csv");
     }
     
-    
 	// constructor 
     public SecondRatings( String moviefile,String ratingsfile )
     {

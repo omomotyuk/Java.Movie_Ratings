@@ -24,7 +24,6 @@ public class FirstRatings
 
 
     // Movie methods 
-    
     public ArrayList<Movie> loadMovies( String filename )
     {
         ArrayList<Movie> movieList = new ArrayList<Movie>();
@@ -137,7 +136,6 @@ public class FirstRatings
                 item.addRating( record.get( "movie_id" ),Double.parseDouble( record.get( "rating" ) ) );
                 list.add( item );
             }
-
         }
         
         return list;
@@ -423,7 +421,6 @@ public class FirstRatings
         {
             System.out.println( "Rater " + item.getKey() + "\t has " + item.getData().size() + "\t ratings for movies : " + item.getData() );
         }
-
        
         // movie - rater
         
