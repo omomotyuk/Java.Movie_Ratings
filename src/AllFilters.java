@@ -9,6 +9,7 @@
 import java.util.ArrayList;
 
 public class AllFilters implements Filter {
+
     ArrayList<Filter> filters;
     
     public AllFilters() {
@@ -29,7 +30,6 @@ public class AllFilters implements Filter {
         
         return true;
     }
-
 }
 
 

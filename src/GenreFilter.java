@@ -21,7 +21,6 @@ public class GenreFilter implements Filter
 	{
 		return ( MovieDatabase.getGenres( id ).indexOf( myGenre ) != -1 );
 	}
-
 }
 
 
